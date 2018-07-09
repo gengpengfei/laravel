@@ -3,7 +3,7 @@
 return [
     'alipay' => [
         // 支付宝分配的 APPID
-        'app_id' => 'shikefood2016@sina.com',
+        'app_id' => 'shikefood@sina.com',
 
         // 支付宝异步通知地址
         'notify_url' => 'http://139.224.220.33:8867',
@@ -15,7 +15,7 @@ return [
         'ali_public_key' => '123',
 
         // 自己的私钥，签名时使用
-        'private_key' => 'vs1lhepilelx0d561zt72ukgtb2xep0e',
+        'private_key' => 'vs1lheilel0d561zt72ukgtb2xep0e',
 
         // optional，默认 warning；日志路径为：sys_get_temp_dir().'/logs/yansongda.pay.log'
         'log' => [
