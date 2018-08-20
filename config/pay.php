@@ -15,7 +15,7 @@ return [
         'ali_public_key' => '123',
 
         // 自己的私钥，签名时使用
-        'private_key' => 'vs1lheilel0d561zt72ukgtb2xep0e',
+        'private_key' => 'vs1lheilel0d561zt72ukgt2xep0e',
 
         // optional，默认 warning；日志路径为：sys_get_temp_dir().'/logs/yansongda.pay.log'
         'log' => [
@@ -29,13 +29,13 @@ return [
 
     'wechat' => [
         // 公众号 APPID
-        'app_id' => 'wxa3dd959056ec940b',
+        'app_id' => 'wxa3dd95056ec940b',
 
         // 小程序 APPID
-        'miniapp_id' => 'wxa3dd959056ec940b',
+        'miniapp_id' => 'wxa3dd95906ec940b',
 
         // APP 引用的 appid
-        'appid' => 'wxa3dd959056ec940b',
+        'appid' => 'wxa3dd95906ec940b',
 
         // 微信支付分配的微信商户号
         'mch_id' => '1320231701',
@@ -44,7 +44,7 @@ return [
         'notify_url' => 'http://139.224.220.33:8867',
 
         // 微信支付签名秘钥
-        'key' => 'lz1izTayx84TDAadGSuf9LfwjTBCYceV',
+        'key' => 'lz1izTayx84TDAadGuf9LfwjTBCYceV',
 
         // 客户端证书路径，退款、红包等需要用到。请填写绝对路径，linux 请确保权限问题。pem 格式。
         'cert_client' => '',
