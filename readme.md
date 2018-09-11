@@ -21,13 +21,3 @@ excel
 ## 安装步骤-使用git
 
 git clone https://github.com/gengpengfei/laravel.git
-
-cd laravel
-
-npm install
-
-database.php 文件 配置数据库
-
-php artisan migrate - 执行数据库迁移
-
-启动服务
