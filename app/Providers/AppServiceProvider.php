@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
 
+//-- 内核启动操作会依次执行所有服务提供者的register函数，全部注册完成之后，才执行boot函数
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -25,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
 
     /**
      * Register any application services.
-     *
+     * 
      * @return void
      */
     public function register()
